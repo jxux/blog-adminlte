@@ -12,3 +12,4 @@ Route::resource('categories', CategoryController::class)->names('admin.categorie
 Route::resource('tags', TagController::class)->names('admin.tags');
 Route::resource('posts', PostController::class)->names('admin.posts');
 
+ 
