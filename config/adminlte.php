@@ -243,6 +243,13 @@ return [
 
         ],
         [
+            'text'      => 'Lista de Roles',
+            'route'     => 'admin.roles.index',
+            'icon'      => 'fas fa-users-cog fa-fw',
+            'active'    => ['admin/roles*'],
+            // 'can'       => 'admin.roles.index',
+        ],
+        [
             'text'      => 'Categorias',
             'route'     => 'admin.categories.index',
             'icon'      => 'fab fa-fw fa-buffer',
@@ -257,6 +264,7 @@ return [
             'can'       => 'admin.tags.index',
 
         ],
+        
         [   'header'    => 'Opciones de blog'],
         [
             'text'      => 'Lista de post',
