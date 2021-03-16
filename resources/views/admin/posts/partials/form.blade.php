@@ -6,7 +6,7 @@
     @enderror
 </div>
 <div class="form-group">
-    {!! Form::label('slug', 'Nombre') !!}
+    {!! Form::label('slug', 'Slug') !!}
     {!! Form::text('slug', null, ['class' => 'form-control', 'placeholder' => 'Ingrese el slug del post', 'readonly']) !!}
     @error('slug')
         <small class="text-red">{{$message}}</small>
